@@ -1,6 +1,7 @@
 # Dual-Clock-Asynchronous-FIFO
- FIFOs are often used to safely pass data from one clock domain to another asynchronous clock domain. Using a FIFO to pass data from one clock domain to another clock domain requires multi-asynchronous clock design techniques.
- An asynchronous FIFO refers to a FIFO design where data values are written to a FIFO buffer from one clock domain and the data values are read from the same FIFO buffer from another clock domain, where the two clock domains are asynchronous to each other.
+. Designed an asynchronous dual-port FIFO using double flop synchronizers to avoid metastability issues
+◦ Incorporated Gray encoding for inter clock domain control data transfer to avoid multi-bit signal transitions
+◦ Verified the Verilog RTL design for write full and read empty test cases in Xilinx Vivado tool
 
 ![image](https://github.com/chetan1107/Dual-Clock-Asynchronous-FIFO/assets/138870448/1b1995ed-0e6a-457a-97c9-19863dbe840a)
 
