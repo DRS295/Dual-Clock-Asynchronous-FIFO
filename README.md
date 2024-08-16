@@ -1,5 +1,5 @@
 # Dual-Clock-Asynchronous-FIFO
-. Designed an asynchronous dual-port FIFO using double flop synchronizers to avoid metastability issues
+ Designed an asynchronous dual-port FIFO using double flop synchronizers to avoid metastability issues
 ◦ Incorporated Gray encoding for inter clock domain control data transfer to avoid multi-bit signal transitions
 ◦ Verified the Verilog RTL design for write full and read empty test cases in Xilinx Vivado tool
 
